@@ -4,7 +4,7 @@ body {
     height:auto;
     font-family: 'Josefin Sans', sans-serif;
     background-color: black;
-    background-image: url("assets/img/tempbackground.jpg");
+    background-image: url("https://static01.nyt.com/images/2019/03/29/world/29france-garfield/merlin_152732157_1da6ec93-b55b-4fb2-ae44-96500f85278c-videoSixteenByNineJumbo1600.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,12 +14,10 @@ div.content{
     width: 50%;
     margin: auto;
     background-color: white;
+    position: relative;
+    opacity: 25%;
     padding-left: 30px;
     padding-right: 30px;
-}
-
-#outer div.content{
-    opacity: 50%;
 }
 
 div.header {
