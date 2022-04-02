@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {
-    height:auto;
     font-family: 'Josefin Sans', sans-serif;
     background-color: black;
     background-image: url("./assets/img/darkhorse_bg.png");
@@ -9,21 +8,31 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0%;
 }
 div.content{
+
     width: 50%;
-    margin: auto;
+    height:fit-content;
+    position: absolute;
+    top: 148px;
+    left: 25%;
     background-color: white;
     padding-left: 30px;
     padding-right: 30px;
+    z-index: 3;
 }
 
 div.header {
+    box-sizing: border-box;
     top: 0;
     left: 0;
     position: fixed;
     width: 100%;
-    background-color: #80DFC4;
+    background-color: #F21EB2;
+    margin: 0%;
+    padding: 0%;
+    z-index: 5;
 }
 
 div.navbar {
@@ -31,7 +40,8 @@ div.navbar {
     left: 0;
     position: fixed;
     width: 100%;
-    background-color: #80DFC4;
+    background-color: #F21EB2;
+    z-index: 5;
 }
 
 div.navbar ul{
