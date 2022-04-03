@@ -10,40 +10,30 @@ body {
     background-size: cover;
     margin: 0%;
 }
-div.content{
 
-    width: 50%;
-    height:fit-content;
-    position: absolute;
-    top: 148px;
-    left: 25%;
-    background-color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    z-index: 3;
-}
-
-div.header {
-    box-sizing: border-box;
+header {
+    position: fixed;
+    text-align: center;
     top: 0;
     left: 0;
-    position: fixed;
     width: 100%;
     background-color: #F21EB2;
-    margin: 0%;
-    padding: 0%;
     z-index: 5;
 }
 
-div.navbar {
-    top: 75px;
+/* HEADER */
+div.header {
+    position: fixed;
+    text-align: center;
+    top: 0;
     left: 0;
-    position: fixed;
     width: 100%;
     background-color: #F21EB2;
     z-index: 5;
 }
+/* end header */
 
+/* NAVBAR */
 div.navbar ul{
     list-style-type: none;
     margin: 0;
@@ -79,3 +69,23 @@ div.navbar li a {
 div.navbar li a:hover {
   color: #13000d;
 }
+/* end navbar */
+
+/* CONTENT */
+div.content{
+    width: 50%;
+    height: fit-content;
+    border: 1;
+    position: absolute;
+    top: 148px;
+    left: 25%;
+    background-color: white; /*rgba(255, 255, 255, 0.9);*/
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    z-index: 3;
+}
+
+/* end content */
