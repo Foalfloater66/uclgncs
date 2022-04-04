@@ -24,6 +24,12 @@ header {
     z-index: 5;
 }
 
+header img{
+    position: center; 
+    width: 50vw; 
+    /*min-width: 70vw;*/
+}
+
 /* end header */
 
 /* NAVBAR */
@@ -32,14 +38,14 @@ header ul.navbar{
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     display:inline-table;
 }
 
 ul.navbar li {
     float: left;
-    font-size: large;
+    font-size: 1.2em;
     font-weight: 800;
     display:inline;
     margin-right: 20px;
@@ -58,12 +64,12 @@ ul.navbar li a {
     background-image: linear-gradient(white, white);
     background-position: left bottom;
     background-repeat: no-repeat;
-    background-size: 0 2px;
+    background-size: 0 .1px;
     transition: background-size 0.5s;
 }
 
 ul.navbar li a:hover {
-    background-size: 100% 2px;
+    background-size: 100% .1vw;
 }
 
 /* end navbar */
@@ -73,8 +79,9 @@ div.content{
     width: 50%;
     height: fit-content;
     position: absolute;
-    top: 132px;
-    left: 25%;
+    top: 9vw;/*132px;*/
+    left: 20%;
+    right: 20%;
     background-color: white;
     border-radius: 10px;
     padding: 5px 30px;
